@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contact — Haul & Hedge</title>
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="stylesheet" href="assets/style.css">
+<script defer src="assets/script.js"></script>
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html"><img src="assets/logo.png" alt="Haul & Hedge logo"><span>Haul & Hedge</span></a>
+  <ul class="navlinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+<main class="container">
+  <section class="fade">
+    <h1>Contact & Quote Request</h1>
+    <p>Fill out the form or email <a href="mailto:hello@haulhedge.example">hello@haulhedge.example</a></p>
+    <form action="https://formspree.io/f/your_form_id" method="POST">
+      <input type="text" name="name" placeholder="Full name" required>
+      <input type="email" name="email" placeholder="Email address" required>
+      <select name="service"><option value="">Select a service</option><option value="junk">Junk Removal</option><option value="mulch">Mulch & Beds</option><option value="cleanup">Yard Cleanup</option><option value="trim">Hedge Trimming</option></select>
+      <textarea name="message" placeholder="Project details & preferred dates" required></textarea>
+      <button type="submit">Request Quote</button>
+    </form>
+  </section>
+</main>
+<footer>© 2025 Haul & Hedge Landscaping</footer>
+</body>
+</html>
